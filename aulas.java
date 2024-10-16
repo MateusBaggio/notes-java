@@ -9,6 +9,13 @@ public class MyClass {
     System.out.println(idade);
     */
 
+    // variaveis de maneira ágil
+    /*
+    String nome,idade,peso,cidade,estado,pais;
+    nome = "x";
+    idade = "y";
+    */
+
     // Constantes variaveis
 
       /*
@@ -93,5 +100,16 @@ public class MyClass {
     contador++;
     }while(contador < 3);
     */
+
+    // Ler valor do terminal
+    /*
+    	Scanner in = new Scanner(System.in);
+		System.out.println("Insira o seu nome");
+		
+		String nome = in.nextLine();
+		*/
+
+    
+    
   }
 }
