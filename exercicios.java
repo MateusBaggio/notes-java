@@ -60,4 +60,23 @@
 		
 	}
 
+//Ex3
+//Informar um saldo e imprimir o saldo com reajuste de 1%.
 
+
+public static void main(String[] args) {
+		
+		Scanner in = new Scanner(System.in);
+		
+		int saldo;
+		
+		System.out.println("Insira o Saldo");
+		saldo =Integer.parseInt(in.nextLine());
+		
+		float porcentagem = (1* saldo)/100;
+		float reajuste = saldo + porcentagem;
+		
+		
+		System.out.println("Aqui está o valor reajustado: " + reajuste);
+		
+	}
