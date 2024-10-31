@@ -32,3 +32,32 @@
 			System.out.println(total);
 			
 		}
+
+
+// Ex2 
+//Fazer um programa que imprima a média aritmética dos números 8,9 e 7. A média dos
+//números 4, 5 e 6. A soma das duas médias. A média das médias.
+
+	public static void main(String[] args) {
+		int[] first = new int[3];
+		first[0] = 8;
+		first[1] = 9;
+		first[2] = 7;
+		int[] second = new int[3];
+		second[0] = 4;
+		second[1] = 5;
+		second[2] = 6;
+		
+		float media_first = ((first[0]) + (first[1]) + (first[2])) / 3;
+		float media_second = ((second[0]) + (second[1]) + (second[2])) / 3;
+		
+		float media_total = ((media_second) + (media_first))  / 2;
+		
+		System.out.println(media_first);
+		System.out.println(media_second);
+		System.out.println(media_total);
+		
+		
+	}
+
+
