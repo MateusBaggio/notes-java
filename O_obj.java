@@ -141,13 +141,61 @@ public class Main extends Abstract_class{
   }
 */
 
-// THIS ---------------  SERVE PARA CHAMER TODOS OS MÉTODOS DISPONÍVEIS DENTRO DA CLASSE
+// THIS ---------------  SERVE PARA CHAMAR TODOS OS MÉTODOS DISPONÍVEIS DENTRO DA CLASSE
 
 /*
 public void chamarMetodoAbstract() {
 		this.instanceMain2();
 	}
 */
+
+
+// INTERFACES 
+
+//MAIN.JAVA
+// package orientacao_a_objetos;
+
+// public class Main implements PlayerInterface{
+// 	public static void main (String[] args) {
+		
+		
+// 		Main jogador = new Main();
+// 		jogador.iniciar();
+		
+// 		System.out.println("VALEU");
+// 	}
+
+// 	@Override
+// 	public void iniciar() {
+// 		System.out.println("OIOIOI");
+// 	}
+
+// 	@Override
+// 	public void perder_vida() {
+// 		System.out.println("OIOIOI");
+// 	}
+
+// 	@Override
+// 	public void morrer() {
+// 		System.out.println("OIOIOI");
+// 	}
+
+	
+	
+	
+	
+// }
+
+//PLAYERINTERFACE.JAVA
+// package orientacao_a_objetos;
+
+// public interface PlayerInterface {
+	
+// 	public abstract void iniciar();
+// 	public abstract void perder_vida();
+// 	public abstract void morrer();
+	
+// }
 
 
 
